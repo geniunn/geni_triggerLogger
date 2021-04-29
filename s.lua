@@ -47,10 +47,10 @@ function GetIdentifier(playerId, identifierType, sSub, cb)
 end
 
 for k in pairs(Config.Triggers) do
-    RegisterServerEvent(Config.Triggers[k].trigger)
-    AddEventHandler(Config.Triggers[k].trigger, function()
-        if Config.Triggers[k].type == "server" then
+    if Config.Triggers[k].type == "server" then
+        RegisterServerEvent(Config.Triggers[k].trigger)
+        AddEventHandler(Config.Triggers[k].trigger, function()
             TriggerEvent('geni_triggerLogger:discordLog', source, Config.Triggers[k].title, Config.Triggers[k].message, Config.Triggers[k].webhook, Config.Triggers[k].trigger, Config.Triggers[k].type)
-        end
-    end)
+        end)
+    end
 end
