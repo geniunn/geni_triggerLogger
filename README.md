@@ -8,4 +8,4 @@
 >![image](https://forum.cfx.re/uploads/default/original/4X/9/5/3/953dcee4e1cfeb07711d99bf6a510b19a0b19487.png)
 >![image](https://user-images.githubusercontent.com/67476044/116620551-a3759c00-a94a-11eb-884b-87959760a246.png)
 
-###### My discord adress: https://discord.gg/BzA2QWMfEs
+###### My discord adress: https://discord.gg/xShd2Mamqv
